@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    /* overflow-x: hidden; */
+}
+
+p{
+    font-weight: 300;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+    position: fixed;
+    width: 100vw;
+    background-color: #FFF;
+    z-index: 1;
+}
+
+.header h1{
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.right_header nav ul{
+    display: flex;
+    min-width: 18vw;
+    justify-content: space-between;
+}
+
+.right_header nav ul li{
+    list-style: none;
+    font-weight: 300;
+}
+
+.right_header nav ul li:nth-child(1){
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.right_header nav ul li:nth-child(2){
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+  }
+
+  /* CONTAINER */
+.container{
+    color: #FFF;
+    min-height: 100vh;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 150px 0 150px 0;
+}
+
+.container h1{
+    font-size: 55px;
+    font-weight: 300;
+}
+
+/* swentorme */
+
+.swentorme{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.image_swentorme{
+    width: 28vw;
+}
+
+.imagem_swentorm{
+    width: 100%;
+}
+
+.image_swentorme a{
+    color: #FFF;
+}
+
+.image_swentorme p{
+    margin: 10px 0;
+}
+
+.description_swentorme{
+    line-height: 25px;
+    width: 50%;
+    padding: 0 30px 0 80px;
+}
+
+.description_swentorme p{
+    margin-bottom: 50px;
+}
+
+.description_swentorme button{
+    border: none;
+    outline: none;
+    background-color: #ed5f2e;
+    color: #FFF;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+/* swentorme */
+
+/* golould */
+.golould{
+    margin-top: -55px;
+    display: flex;
+    flex-direction: column; 
+    width: 24vw;
+    margin-left: 31vw;
+}
+
+.imagem_golould{
+    width: 100%;
+}
+
+.container_golould{
+    display: flex;
+    justify-content: center;
+}
+
+.golould p{
+    margin-top: 10px;
+}
+/* golould */
+
+/* youser */
+.youser{
+    margin-top: -18px;
+    display: flex;
+    flex-direction: column; 
+    width: 28vw;
+    margin-left:58vw;
+}
+
+.imagem_youser{
+    width: 100%;
+}
+
+.youser p{
+    margin-top: 10px;
+}
+/* youser */
+
+/* appece */
+.appece{
+    margin-top: -17px;
+    display: flex;
+    flex-direction: column; 
+    width: 24vw;
+    margin-left: 31vw;
+}
+
+.appece p{
+    margin-top: 10px;
+}
+
+.imagem_appece{
+    width: 100%;
+}
+/* appece */
+
+
+/* therin */
+.therin{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column; 
+    width: 28vw;
+}
+
+.imagem_therin{
+    width: 100%;
+}
+
+.therin p{
+    margin-top: 10px;
+}
+/* therin */
+
+
+/* havine */
+.havine{
+    margin-top: -17px;
+    display: flex;
+    flex-direction: column; 
+    width: 24vw;
+    margin-left: 31vw;
+}
+
+.havine p{
+    margin-top: 10px;
+}
+
+.imagem_havine{
+    width: 100%;
+}
+/* havine */
+
+
+/* goomers */
+.goomers{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column; 
+    width: 28vw;
+    margin-left: 58vw;
+}
+
+.imagem_goomers{
+    width: 100%;
+}
+
+.goomers p{
+    margin-top: 10px;
+}
+/* goomers */
+
+.footer{
+    background-color: #FFF;
+    padding: 15px 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .left a{
+    color: #000;
+}
+
+.footer .left p, .footer .right p{
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.footer .right a img:nth-child(1){
+    margin: 0 10px;
+}
+
+/* MEDIA SCREEN MAX 480PX */
+
+@media screen and (max-width: 480px) {
+    .container{
+        max-width: 100vw;
+        padding: 100px 0 50px 0;
+    }
+
+    .header{
+        padding: 15px 20px;
+        flex-direction: column;
+    }
+
+    .left_header h1{
+        margin-bottom: 10px;
+    }
+
+    .container h1{
+        margin: 0 auto;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .swentorme{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_swentorme{
+        width: 80%;
+    }
+
+    .description_swentorme{
+        padding: 0px;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .description_swentorme p{
+        margin-bottom: 30px;
+    }
+
+    .golould, .youser, .appece, .therin, .havine, .goomers{
+        margin-top: 30px;
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .imagem_golould, .imagem_golould, .imagem_youser, .imagem_appece, .imagem_therin, .imagem_havine, .imagem_goomers{
+        width: 100%;
+    }
+
+    .golould p, .youser p, .appece p, .therin p, .havine p, .goomers p{
+        margin-top: 14px;
+    }
+
+    /* footer */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer .left{
+        margin: 10px;
+    }
+
+    .footer .right{
+        margin: 10px;
+    }
+    /* footer */
+}
+
+/* MEDIA SCREEN MAX 768PX */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container{
+        max-width: 100vw;
+        padding: 100px 0 50px 0;
+    }
+
+    p, a, button{
+        font-size: 18px;
+    }
+
+    .header{
+        padding: 15px 20px;
+        flex-direction: column;
+    }
+
+    .left_header h1{
+        margin-bottom: 10px;
+    }
+
+    .container h1{
+        margin: 0 auto;
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    .swentorme{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_swentorme{
+        width: 70%;
+    }
+
+    .description_swentorme{
+        padding: 0px;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .description_swentorme p{
+        margin-bottom: 30px;
+    }
+
+    .golould, .youser, .appece, .therin, .havine, .goomers{
+        margin-top: 30px;
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    .imagem_golould, .imagem_golould, .imagem_youser, .imagem_appece, .imagem_therin, .imagem_havine, .imagem_goomers{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .golould p, .youser p, .appece p, .therin p, .havine p, .goomers p{
+        margin-top: 14px;
+    }
+
+    /* footer */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer .left{
+        margin: 10px;
+    }
+
+    .footer .right{
+        margin: 10px;
+    }
+    /* footer */
+}
+
+/* MEDIA SCREEN MAX 920PX */
+
+@media screen and (min-width: 769px) and (max-width: 920px) {
+    .container{
+        max-width: 100vw;
+        padding: 100px 0 50px 0;
+    }
+
+    p{
+        line-height: 33px;
+    }
+
+    p, a, button{
+        font-size: 20px;
+    }
+
+    .container h1{
+        margin: 20px auto;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .swentorme{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_swentorme{
+        width: 60%;
+    }
+
+    .description_swentorme{
+        padding: 0px;
+        width: 60%;
+        margin-top: 30px;
+    }
+
+    .description_swentorme p{
+        margin-bottom: 40px;
+    }
+
+    .golould, .youser, .appece, .therin, .havine, .goomers{
+        margin-top: 30px;
+        width: 60%;
+        margin: 30px auto;
+    }
+
+    .imagem_golould, .imagem_golould, .imagem_youser, .imagem_appece, .imagem_therin, .imagem_havine, .imagem_goomers{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .golould p, .youser p, .appece p, .therin p, .havine p, .goomers p{
+        margin-top: 14px;
+    }
+
+    /* footer */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .footer .left{
+        margin: 10px;
+    }
+
+    .footer .right{
+        margin: 10px;
+    }
+    /* footer */
+}
