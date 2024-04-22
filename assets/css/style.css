@@ -83,7 +83,8 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-    width: 100%;
+    max-width: 100%;
+    background-color: purple;
 }
 
 .image_swentorme{
