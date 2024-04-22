@@ -84,7 +84,6 @@ nav ul li a {
     justify-content: space-between;
     padding-top: 50px;
     max-width: 100%;
-    background-color: purple;
 }
 
 .image_swentorme{
@@ -355,7 +354,7 @@ nav ul li a {
 
     .container h1{
         margin: 0 auto;
-        font-size: 42px;
+        font-size: 35px;
         text-align: center;
     }
     
